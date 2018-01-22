@@ -1,0 +1,227 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 5.1.6.2 (Linux)"/>
+	<meta name="created" content="2018-01-18T17:54:12.098935223"/>
+	<meta name="changed" content="2018-01-19T13:57:52.957742339"/>
+	<style type="text/css">
+		@page { margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 120% }
+		td p { margin-bottom: 0in }
+		a:link { so-language: zxx }
+	</style>
+</head>
+<body lang="en-GB" dir="ltr">
+<div title="header">
+	<p align="right" style="margin-bottom: 0.2in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.03in; padding-left: 0in; padding-right: 0in; line-height: 100%">
+	<sdfield type=DATETIME sdval="43118.9106648615" sdnum="2057;2057;DD/MM/YY">18/01/18</sdfield></p>
+</div>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.03in; padding-left: 0in; padding-right: 0in; line-height: 100%">
+<br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; border-top: none; border-bottom: 1.00pt solid #000000; border-left: none; border-right: none; padding-top: 0in; padding-bottom: 0.03in; padding-left: 0in; padding-right: 0in; line-height: 100%">
+Working together using Github 
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%">In this example two
+persons are working on one file from two different computers. 
+</p>
+<p style="margin-bottom: 0in; line-height: 100%">Both users have a
+github account and git installed on their linux computer. We will use
+the command line and occasionally the website of the users. 
+</p>
+<p style="margin-bottom: 0in; line-height: 100%">The first user
+creates a repository that going to be the master of the project. All
+pull request will be authorized by this user. 
+</p>
+<p style="margin-bottom: 0in; line-height: 100%">In order to
+collaborate and edit code the second user has to submit pull request,
+which will be evaluated by the master of the project. 
+</p>
+<p style="margin-bottom: 0in; line-height: 100%">The following
+sequence is one way of using github to manage git communication
+between users.</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%">The initial
+condition: user_1 has one repo created previously with a file inside.</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<table width="100%" cellpadding="4" cellspacing="0">
+	<col width="128*">
+	<col width="128*">
+	<tr valign="top">
+		<td width="50%" style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0.04in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+			<p>Actions of user_2</p>
+		</td>
+		<td width="50%" style="border: 1px solid #000000; padding: 0.04in">
+			<p>Actions <span style="text-decoration: none">of user_1</span></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+			<p>Fork the repository from the user_1’s profile:</p>
+			<ul>
+				<li/>
+<p>go to the github site of user_1’s repo, hit clone
+				repo. 
+				</p>
+			</ul>
+			<p>clone the repo to your computer:</p>
+			<ul>
+				<li/>
+<p>make a folder 
+				</p>
+				<li/>
+<p>copy the clone link (the http one)</p>
+				<li/>
+<p>execute `git clone REPOLINK`</p>
+			</ul>
+			<p><br/>
+
+			</p>
+			<p>user_2 can apply corrections to the code on the local computer
+			and after that execute the add, commit and push sequence: 
+			</p>
+			<ul>
+				<li/>
+<p>`git add .`</p>
+				<li/>
+<p>`git commit -a` or with the flag -m “message”</p>
+				<li/>
+<p>`git push origin master`</p>
+			</ul>
+			<p><br/>
+
+			</p>
+			<p>make a pull request from the website 
+			</p>
+			<ul>
+				<li/>
+<p>go to the website and find “pull request”</p>
+				<li/>
+<p>the dialogue will be self-explanatory 
+				</p>
+			</ul>
+			<p><br/>
+
+			</p>
+			<p>User_2 is finished at this point – his addition to the code
+			is submitted. 
+			</p>
+		</td>
+		<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+			<p><br/>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+			<p><br/>
+
+			</p>
+		</td>
+		<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+			<p>At this point the logged in user_1 will see a pull-request and
+			he can merge the changes made by user_1 into the master (or
+			whichever branch). 
+			</p>
+			<p><br/>
+
+			</p>
+			<p>After this, user_1 still needs to pull the changes onto his
+			computer (local version).</p>
+			<p>`git pull origin master`</p>
+			<p><br/>
+
+			</p>
+			<p>He can now himself make changes on his local version on his
+			computer.</p>
+			<p>User_1 still needs to execute the add, commit and push sequence
+			of his changes. 
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0in">
+			<p>At this point user_2 can see user_1’s changes on the webpage.
+			In order to apply the newest changes onto his local computer
+			version user_2 needs to:</p>
+			<ol>
+				<li/>
+<p>update his fork</p>
+				<li/>
+<p>update his local version of the fork, so that he can
+				work on his computer on the code</p>
+			</ol>
+			<p>to do these steps he needs :</p>
+			<ul>
+				<li/>
+<p>`git remote add upstream <a href="mailto:git@github.com">git@github.com</a>:X/X.git`</p>
+				<li/>
+<p>`git pull upstream master`</p>
+			</ul>
+			<p><br/>
+
+			</p>
+			<p>user_2 can now make changes and apply them to his fork by the
+			add, commit and push sequence. 
+			</p>
+			<p>User_1 can see the changes again if user_1 makes a
+			pull-request! 
+			</p>
+			<p><br/>
+
+			</p>
+			<p>So the cycle is closed! 
+			</p>
+		</td>
+		<td width="50%" style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding-top: 0in; padding-bottom: 0.04in; padding-left: 0.04in; padding-right: 0.04in">
+			<p><br/>
+
+			</p>
+		</td>
+	</tr>
+</table>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%">Github features 
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><a href="https://github.com/features">https://github.com/features</a></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><a href="https://code.tutsplus.com/tutorials/how-to-collaborate-on-github--net-34267">https://code.tutsplus.com/tutorials/how-to-collaborate-on-github--net-34267</a></p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<p style="margin-bottom: 0in; line-height: 100%"><br/>
+
+</p>
+<div title="footer">
+	<p align="center" style="margin-top: 0.2in; margin-bottom: 0in; line-height: 100%">
+	<sdfield type=PAGE subtype=RANDOM format=PAGE>2</sdfield></p>
+</div>
+</body>
+</html>
